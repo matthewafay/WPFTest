@@ -1,0 +1,14 @@
+﻿<Window x:Class="WPFTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTest"
+        mc:Ignorable="d"
+        Title="Test Window" Height="350" Width="525">
+    <Grid>
+        <TextBlock  HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="70" Margin="10,10,122.4,217.8">Hello World!</TextBlock>
+        <Button FontWeight="Bold" Margin="63,128,368.4,163.8" Click="Button_Click">Stop Spooler</Button>
+        <Button Name="button2" FontWeight="Bold" Margin="63,171,368.4,122.8" Click="button2_Click">Start Spooler</Button>
+    </Grid>
+</Window>
